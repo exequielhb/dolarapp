@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #111827; /* Dark background */
+}
+
+.bg-gray-800 {
+  background-color: #1f2937;
+}
+
+.text-blue-400 {
+  color: #60a5fa;
+}
+
+.text-green-400 {
+  color: #4ade80;
+}
+
+.text-red-400 {
+  color: #f87171;
+}
